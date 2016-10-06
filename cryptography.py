@@ -18,6 +18,8 @@ while Coding:
         if start == "e":
             m = input("Message: ")
             k = input("Key: ")
+            for c in m:
+                print(associations.find(c))
         elif start == "d":
             print("Matt! focus on encrypting!")
         else:
@@ -25,6 +27,7 @@ while Coding:
     else:
         print("YOU'RE NOT ALLOWED TO QUIT YET")
         Coding = False
+    
     
     
 
