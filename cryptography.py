@@ -34,7 +34,7 @@ while Coding:
             p = b*20    
             for l in range(len(m)):
                 q = a[l] + p[l] #adding key's #'s to message #'s
-                if q >= 84:
+                if q > 84:
                     o = q-84
                     f.append(o)
                 else:
