@@ -12,18 +12,17 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 
 
-a = []
-b = []
-f = []
-u = []
-z = []
-w = []
+
+
 
 Coding = True
 while Coding:
     start = input("Enter e to encrypt, d to decrypt, or q to quit:")
     if start != "q":
         if start == "e":
+            a = []
+            b = []
+            f = []
             m = input("Message: ")
             for c in m:
                 n  = (associations.find(c))
@@ -46,6 +45,9 @@ while Coding:
                 print(wow, end="") #Printing result
             print()
         elif start == "d":
+            u = []
+            z = []
+            w = []
             m = input("Message: ")
             for c in m:
                 n  = (associations.find(c))
