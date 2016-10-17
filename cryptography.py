@@ -34,8 +34,8 @@ while Coding:
             p = b*20    
             for l in range(len(m)):
                 q = a[l] + p[l] #adding key's #'s to message #'s
-                if q > 84:
-                    o = q-84
+                if q > 85:
+                    o = q-85
                     f.append(o)
                 else:
                     f.append(q)
@@ -60,7 +60,7 @@ while Coding:
             for l in range(len(m)):
                 q = w[l] - p[l] #adding key's #'s to message #'s
                 if q < 0:
-                    o = q + 84
+                    o = q + 85
                     u.append(o)
                 else:
                     u.append(q)
