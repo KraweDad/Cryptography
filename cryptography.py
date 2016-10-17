@@ -17,7 +17,7 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 
 Coding = True
 while Coding:
-    start = input("Enter e to encrypt, d to decrypt, or q to quit:")
+    start = input("Enter e to encrypt, d to decrypt, or q to quit: ")
     if start != "q":
         if start == "e":
             a = []
